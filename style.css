@@ -1,0 +1,116 @@
+
+body{
+	font-family:serif;
+}
+
+h1{
+margin:0px;
+padding:30px 50px;
+background-color : #EEEEEE;
+width:(100% - 400px);
+}
+
+h2{
+margin:0px 10px 0px 0px;
+padding:100px 50px 10px 50px ;
+background-color : #FFFFFF;
+width:(100% - 400px);
+}
+
+ul{
+margin:25px 0px;
+padding:30px 0px 30px 40px;
+background-color : #AADDFF;
+width:(100% - 100px);
+}
+
+p{
+margin:25px 0px 0px 10px;
+padding:50px 10px 20px 30px;
+border-left : 1px solid maroon;
+border-right : 1px solid maroon;
+background-color : #FFFFFF;
+width:calc(100% - 70px);
+}
+
+img{
+height:auto;
+width:calc(100%);
+margin:25px, 25px;
+padding:30px 0px;
+}
+
+
+
+.column{
+    width: 100%;
+    margin: auto;
+    /*align-items: flex-end;
+    justify-content: center;*/
+    }
+
+.submenu{
+    width: 100%;
+    text-align: left;
+    align-items: flex-end;
+    justify-content: center;
+    padding:0px 0px;
+    background-color : #F4FFFF;
+}
+
+.kaishanituite{
+
+    
+    margin-left:10px;
+    text-align: left;
+    align-items: flex-end;
+    justify-content: center;
+	margin:0px;
+	padding:20px 0px;
+	
+	background-color : #F4F4FF;
+	
+}
+.body{
+    display: block;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 0 auto;
+}
+.date{
+	color: #888;
+	font-size: 2px;
+	text-align: end;
+}
+
+@media all and (min-width: 1000px){
+.body{
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+}
+.submenu{
+
+    width: 30%;
+    margin-left: 10px;
+    text-align: left;
+    align-items: flex-end;
+    justify-content: center;
+	margin:0px;
+	padding:20px 0px;
+	
+	background-color : #F4FFFF;}
+	
+.column{
+	margin: 0;
+}
+}
+@media all and (min-width: 600px){
+img{
+width: 500px;
+}
+.column{
+width: 600px;
+}
+}
+
